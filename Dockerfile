@@ -1,3 +1,3 @@
 FROM moosefs/client
 
-RUN apt update -y && apt install -y nodejs
+RUN apt update --allow-releaseinfo-change -y && apt install -y nodejs
